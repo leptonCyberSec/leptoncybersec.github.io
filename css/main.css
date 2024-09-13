@@ -9,16 +9,13 @@
 /* Font declaration */
 @font-face {
   font-family: "Fira Code";
-  src: url("fonts/FiraCodeNerdFont-Regular.ttf");
+  src: url("../fonts/FiraCodeNerdFont-Regular.ttf");
 }
 
 /* Element styling */
 body, html {
   margine: 0px;
   background-color: var(--page-background);
-}
-
-p {
   font-family: "Fira Code";
   color: var(--lepton-orange);
 }
