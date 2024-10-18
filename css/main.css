@@ -1,6 +1,11 @@
 /* Color declaration */
 :root {
   --lepton-orange: #f44611;
+  --valid: #43b581;
+  --info: #95acff;
+  --warn: #faa61a;
+  --error: #e06c75;
+
   --page-background: #150e1a;
   --widget-border: #221f26;
   --widget-background: #3a3340;
@@ -14,7 +19,7 @@
 
 /* Element styling */
 body, html {
-  margine: 0px;
+  margin: 0px;
   background-color: var(--page-background);
   font-family: "Fira Code";
   color: var(--lepton-orange);
